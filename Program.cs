@@ -46,5 +46,10 @@ class Program
         Console.WriteLine("Book: " + title + ", Pages: " + pages);
 
         #endregion
+
+        #region 6
+        //Build the same sentence as above, but using string interpolation ($"...").
+        Console.WriteLine($"Book: {title2}, Pages: {pages}");
+        #endregion
     }
 }

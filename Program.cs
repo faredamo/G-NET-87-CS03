@@ -38,6 +38,13 @@ class Program
         Console.WriteLine(s1);
 
         #endregion
+
+        #region 5
+        //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, Pages: 464" using the + operator
+        string title2 = "Clean Code";
+        int pages = 464;
+        Console.WriteLine("Book: " + title + ", Pages: " + pages);
+
+        #endregion
     }
 }
-

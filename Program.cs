@@ -57,5 +57,12 @@ class Program
         Console.WriteLine(string.Format("Book:{0}, Pages:{1}", title2, pages));
 
         #endregion
+
+        #region 8
+        //Declare a nullable integer int? pages = null;. Use the Null Coalescing Operator (??) to print pages or 0 if it is null.
+        int? pages2 = null;
+        Console.WriteLine(pages2 ?? 0);
+
+        #endregion
     }
 }

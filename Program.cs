@@ -31,6 +31,13 @@ class Program
         s1.Append("Updated");
         Console.WriteLine(s1);
         #endregion
+
+        #region 4
+        //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library". Print the result.
+        s1.Replace("Book List", "Library");
+        Console.WriteLine(s1);
+
+        #endregion
     }
 }
 

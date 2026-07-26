@@ -14,5 +14,13 @@ class Program
         Console.WriteLine(upperTitle);
 
         #endregion
+
+        #region 2
+        //Declare two separate string variables, both set to the literal "Clean Code". Use ReferenceEquals() to check if they point to the same object in memory.
+        string firstLine = "Clean Code";
+        string secondLine = "Clean Code";
+        Console.WriteLine(ReferenceEquals(firstLine, secondLine));
+
+        #endregion
     }
 }

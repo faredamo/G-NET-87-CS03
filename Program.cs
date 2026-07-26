@@ -51,5 +51,11 @@ class Program
         //Build the same sentence as above, but using string interpolation ($"...").
         Console.WriteLine($"Book: {title2}, Pages: {pages}");
         #endregion
+
+        #region 7
+        //Build the same sentence again, but using string.Format().
+        Console.WriteLine(string.Format("Book:{0}, Pages:{1}", title2, pages));
+
+        #endregion
     }
 }
